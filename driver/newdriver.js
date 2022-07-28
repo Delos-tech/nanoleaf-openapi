@@ -1,6 +1,5 @@
 const { Discovery } = require('../lib/index');
 
-
 async function main() {
     const discovery = new Discovery();
 
