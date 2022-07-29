@@ -1,5 +1,6 @@
 {
   "manualOverrides": {
-    "semaphore@1.1.0": "MIT"
+    "semaphore@1.1.0": "MIT",
+    "color-convert@0.5.3": "MIT"
   }
 }
