@@ -26,7 +26,7 @@
     "@babel/preset-react": "^7.18.6",
     "config": "^3.3.6",
     "d2l-license-checker": "^4.1.14",
-    "eslint": "^8.21.0",
+    "eslint": "^8.22.0",
     "eslint-config-webbylab": "^6.0.0",
     "eslint-plugin-fetch": "^0.0.1",
     "eslint-plugin-import": "^2.26.0",
