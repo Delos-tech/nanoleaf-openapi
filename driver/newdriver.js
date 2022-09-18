@@ -6,7 +6,7 @@ async function main() {
 
     discovery.on('new-device', async (e) => {
         console.log(e);
-        e.setAuthToken('11tnYUmDjr92hQssdrA16dXNqKXObEPE');
+        // e.setAuthToken('11tnYUmDjr92hQssdrA16dXNqKXObEPE');
         e.allowColorBrightness = false;
         console.log(await e.getState());
         await e.set({ color: 'blue' });
