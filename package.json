@@ -1,6 +1,6 @@
 {
   "name": "@delos-tech/nanoleaf-openapi",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "NanoLeaf OpenAPI interface",
   "main": "index.js",
   "scripts": {
