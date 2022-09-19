@@ -6,10 +6,11 @@ async function main() {
 
     discovery.on('new-device', async (e) => {
         console.log(e);
-        // e.setAuthToken('11tnYUmDjr92hQssdrA16dXNqKXObEPE');
+        e.setAuthToken('oqTrK0kUZGDzuOjzXqH4yge81l3QaDd4');
         e.allowColorBrightness = false;
         console.log(await e.getState());
-        await e.set({ color: 'blue' });
+        await e.setPower(true);
+        // await e.set({ color: 'green' });
     });
     discovery.start();
 }
